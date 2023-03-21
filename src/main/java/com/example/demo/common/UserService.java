@@ -12,7 +12,7 @@ public interface UserService {
 
      int update(User user);
 
-     int searchById(Long userId);
+     User getById(Long userId);
 
      List<User> find();
 
